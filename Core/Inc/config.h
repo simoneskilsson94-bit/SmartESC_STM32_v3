@@ -12,7 +12,7 @@
 // note that hacked firmware allows up to 55amps motor phase current
 #define PH_CURRENT_MAX_ECO 10000
 #define PH_CURRENT_MAX_NORMAL 15000
-#define PH_CURRENT_MAX_SPORT 25000
+#define PH_CURRENT_MAX_SPORT 50000
 
 // motor current limit for regen in mA
 #define REGEN_MAX_CURRENT 10000
@@ -21,7 +21,7 @@
 #define FIELD_WEAKNING_CURRENT_MAX 0 //max id
 
 // ADC channels
-#define ADC_VOLTAGE 0
+#define ADC_VOLTAGE 54
 #define ADC_THROTTLE 1
 #define ADC_TEMP 2
 
